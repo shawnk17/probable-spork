@@ -3,6 +3,10 @@ body{
     background-color: rgba(147, 213, 252, 0.795);
 }
 
+div {
+    margin: 1rem 0;
+}
+
 form{
     margin: o auto;
     width: auto;
