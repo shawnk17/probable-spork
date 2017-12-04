@@ -1,0 +1,15 @@
+body{
+    font-size: 100%;
+    background-color: rgba(147, 213, 252, 0.795);
+}
+
+form{
+    margin: o auto;
+    width: auto;
+    padding: 1rm;
+}
+
+footer{
+    clear: both;
+    background-color:palegoldenrod;
+}
