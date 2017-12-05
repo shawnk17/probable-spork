@@ -1,14 +1,14 @@
-var artisInput = document.getElementById("artis"),
+var artistInput = document.getElementById("artist"),
     lableInput = document.getElementById("lable"),
     addButton = document.getElementById("addButton"),
     displayList = document.getElementById("display-list"),
     books = [];
 
-var Book = function Book(artis, lable) {
-    this.artis = artis;
+var Book = function Book(artist, lable) {
+    this.artist = artist;
     this.lable = lable;
     this.getDisplayText = function () {
-        return this.artis + " by " + this.lable;
+        return this.artist + " by " + this.lable;
     }
 }
 
@@ -20,7 +20,7 @@ var renderList = function renderList() {
 };
 
 addButton.addEventListener("click", function () {
-    var newBook = new Book(artisInput.value, lableInput.value);
+    var newBook = new Book(artistInput.value, lableInput.value);
     books.push(newBook);
     renderList();
 });

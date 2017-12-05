@@ -1,17 +1,16 @@
 body{
     font-size: 100%;
-    background-color: rgba(147, 213, 252, 0.795);
+    background-color: rgba(147, 213, 252, 0.616);
 }
 
-}
 .navbar-brand img {
   display: block;
 }
 
 img {
-    border: 0;
+    border: 2;
     vertical-align: middle;
-    height: ]auto;
+    height: auto;
     width: 10%;
 }
 
