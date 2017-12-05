@@ -8,6 +8,9 @@
     <title>HOME</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/gif" href="animated_favicon1.gif">
+
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
 
@@ -16,29 +19,29 @@
 <body>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <div class="navbar-header">
+            <div class="navbar-header brandnav">
                 <a class="navbar-brand" href="#">
-                    <img alt="Brand" src="pic/sign.png">
+                    <!-- <img alt="Brand" class="img-responsive" src="pic/sign.png"> -->
+                    <h4>Helllo</h4>
                 </a>
             </div>
 
-        </div>
         <ul class="nav navbar-nav">
             <li class="active">
                 <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="pg2">Page 2</a>
+                <a href="pg2.html">Page 2</a>
             </li>
             <li>
-                <a href="#">Page 3</a>
+                <a href="pg3.html">Page 3</a>
             </li>
             <li>
                 <a href="#">Page 4</a>
             </li>
         </ul>
-        </div>
-        </div>
+        
+            </div>   
     </nav>
 
     <form action="#">
@@ -54,6 +57,16 @@
                 <input id="lable" name="lable-name" type="text">
             </div>
             <button type="button" id="addButton" class="btn btn-info">Info</button>
+            <input type="reset" value="Reset the form">
+
+
+
+            <div id="myProgress">
+                <div id="myBar">10%</div>
+            </div>
+
+            <br>
+            <button onclick="move()">Click Me</button>
 
     </form>
 
@@ -70,6 +83,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script src="jss/book.js"></script>
+    <script src="jss/bar.js"></script>
 </body>
 
 </html>

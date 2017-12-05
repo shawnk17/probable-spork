@@ -1,13 +1,16 @@
+var Car = function Car(year,make,model){
+    // var this = {}; // This is *like* what happens
+    this.vehicleYear = year;
+    this.vehicleMake = make;
+    this.vehicleModel = model;
+    // return this;
+};
 
 
-// var Customer = function Customer(first, last){
-//     this.fristName = first;
-//     this.lastName =last;
+var myCar = new Car(2012, "Ford", "Fusion");
 
-//     this.greet = function greet(){
-//         return "Hello, " this.fristName + "" + this.lastName +"1";
-//     }
-// }
+console.log(myCar.vehicleMake);
 
-// var myCustomer = new Customer("scobbie", "");
+var myOtherCar = Car(2015, "Toyota", "Tundra");
 
+console.log(myOtherCar.vehicleMake);
